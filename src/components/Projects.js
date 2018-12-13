@@ -1,6 +1,15 @@
 import React, { Component } from 'react';
 import './Projects.css';
 import { Project } from './Project'
+import tutorialSearch from "../images/TutorialSearch.jpg";
+import musicLibrary from "../images/ht_MusicLibrary.png";
+import guitarSite from "../images/guitar-site.png";
+import earTrainingGame from "../images/ear-training-game.png";
+import charlieHadenTribute from "../images/charlie-haden-tribute-page.png";
+import oscillatorPlayer from "../images/oscillator-player.png";
+import fourBandEq from "../images/4-band-eq.png";
+import dynamicsCompressor from "../images/dynamics-compressor.png";
+import simpleSynth from "../images/simple-synth.png";
 
 export default class Projects extends Component {
 	constructor(props){
@@ -9,31 +18,31 @@ export default class Projects extends Component {
 		this.state={
 			projects: [
 				{ title: 'Tutorial Search',
-				 image: 'images/TutorialSearch.jpg'
+				 image: { tutorialSearch }
 				},
 				{ title: 'Music Library',
-				 image: 'images/ht_MusicLibrary.png'
+					image: { musicLibrary }
 				},
 				{ title: 'Guitar Website',
-				 image: 'images/guitar-site.png'
+					image: { guitarSite }
 				},
 				{ title: 'Ear Training Game',
-				 image: 'images/ear-training-game.png'
+					image: { earTrainingGame }
 				},
 				{ title: 'Charlie Haden Tribute Page',
-				 image: 'images/charlie-haden-tribute-page.png'
+					image: { charlieHadenTribute }
 				},
 				{ title: 'Oscillator Player',
-				 image: 'images/oscillator-player.png'
+					image: { oscillatorPlayer }
 				},
 				{ title: '4-Band EQ',
-				 image: 'images/4-band-eq.png'
+					image: { fourBandEq }
 				},
 				{ title: 'Dynamics Compressor',
-				 image: 'images/dynamics-compressor.png'
+					image: { dynamicsCompressor }
 				},
 				{ title: 'Simple Synth',
-				 image: 'images/simple-synth.png'
+					image: { simpleSynth }
 				},
 			]
 		}
