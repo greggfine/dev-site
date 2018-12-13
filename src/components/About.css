@@ -1,0 +1,18 @@
+.about-container{
+    margin-bottom: 200px;
+    padding-top: 70px;
+}
+
+.about-text {
+    font-size: 1.6rem;
+    max-width: 600px;
+    margin: auto;
+    line-height: 20px;
+}
+
+.gregg-img{
+    border-radius: 50%;
+    display: block;
+    margin: 100px auto;
+    width: 18%;
+}
