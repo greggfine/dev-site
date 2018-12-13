@@ -10,6 +10,7 @@ import oscillatorPlayer from "../images/oscillator-player.png";
 import fourBandEq from "../images/4-band-eq.png";
 import dynamicsCompressor from "../images/dynamics-compressor.png";
 import simpleSynth from "../images/simple-synth.png";
+import cardMockup from "../images/Card_Mockup.png";
 
 export default class Projects extends Component {
 	constructor(props){
@@ -18,7 +19,7 @@ export default class Projects extends Component {
 		this.state={
 			projects: [
 				{ title: 'Tutorial Search',
-				 image: { tutorialSearch }
+				 image:  tutorialSearch 
 				},
 				{ title: 'Music Library',
 					image: { musicLibrary }
@@ -55,7 +56,7 @@ export default class Projects extends Component {
 		return (
 			<div className="projects-container">
 				<img className="project-cards"
-					src="/images/Card_Mockup.png" style={{ width: '50%', margin: 'auto', display: 'block' }}/>
+					src={ cardMockup } style={{ width: '50%', margin: 'auto', display: 'block' }}/>
 			</div>
 		)
       

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+
 export const Project = ({project}) => {
 		return (
 			<li id="project-item" style={{listStyleType: 'none'}}>
