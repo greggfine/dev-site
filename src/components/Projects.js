@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Projects.css';
-import { Project } from './Project'
+import Project from './Project'
 import tutorialSearch from "../images/TutorialSearch.jpg";
 import musicLibrary from "../images/ht_MusicLibrary.png";
 import guitarSite from "../images/guitar-site.png";

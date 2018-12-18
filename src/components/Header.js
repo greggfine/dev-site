@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css'
 
-export const Header = () => {
+const Header = () => {
     return (
         <nav>
         	<h1 className="logo">Gregg <span className="last-name">Fine</span></h1>
@@ -15,3 +15,5 @@ export const Header = () => {
         </nav>
     )
 }
+
+export default Header;

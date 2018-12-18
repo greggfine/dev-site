@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import  { Header }  from './components/Header'
-import  { Skills }  from './components/Skills'
+import Header   from './components/Header'
+import Skills   from './components/Skills'
 import Bio from './components/Bio'
 import Projects from './components/Projects'
 import Footer from './components/Footer'

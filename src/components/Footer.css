@@ -3,3 +3,39 @@
     color: #fff;
     height: 300px;
 }
+
+.footer-name {
+    padding-top: 40px;
+    font-size: 5rem;
+    letter-spacing: 4px;
+    font-weight: 400;
+    color: var(--devYellow);
+}
+
+.footer-email {
+    margin-top: -20px;
+    font-size: 2rem;
+    text-align: center;
+    color: var(--devPink);
+}
+
+.footer-links {
+    padding-top: 30px;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.footer-links li {
+    font-size: 3.5rem;
+    padding-right: 40px;
+    transition: transform 200ms;
+}
+
+.footer-links li a {
+    color: var(--devYellow);
+}
+
+.footer-links li:hover {
+    transform: scale(1.05);
+}

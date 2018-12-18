@@ -1,14 +1,14 @@
 import React from 'react';
 import './Skills.css';
-import  { Skill }  from './Skill'
+import Skill from './Skill'
 
 
-export const Skills = ( {skills}) => {
+const Skills = ( {skills}) => {
     return (
 		<div>
 			<div className="pink-box">
 				<div className="skills-container">
-					<h2>Skills:</h2>
+					<h1>Technical Skills:</h1>
 						<ul className="skill-list">
 							<Skill skills={skills} />
 						</ul>
@@ -18,3 +18,5 @@ export const Skills = ( {skills}) => {
 		</div>
     )
 }
+
+export default Skills;

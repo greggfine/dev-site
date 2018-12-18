@@ -1,9 +1,9 @@
 html{
   --devBlue: #061931;
   --devYellow: #F6F3EB;
+  --devPink: #D5917D;
   font-size: 10px;
 }
-
 
 body {
  font-family: 'Roboto', sans-serif;
